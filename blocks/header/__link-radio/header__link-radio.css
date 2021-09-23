@@ -1,0 +1,11 @@
+.header__link-radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.header__link-radio:checked + .header__link-text {
+    text-decoration: underline;
+}

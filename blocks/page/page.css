@@ -1,0 +1,10 @@
+.page {
+    font-family: 'Inter', Arial, sans-serif;
+    width: calc(100vw - 96px);
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    color: white;
+    padding-top: 28px;
+  }
+  
+* {outline: 1px solid red;} 

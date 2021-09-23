@@ -1,0 +1,5 @@
+.places__website {
+    grid-area: places__website;
+    display: flex;
+    flex-direction: column;
+}
