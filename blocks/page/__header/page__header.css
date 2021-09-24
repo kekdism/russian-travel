@@ -1,0 +1,6 @@
+.page__header {
+    width: calc(100vw - 96px);
+    max-width: 1184px;
+    margin: 0 auto;
+    padding-top: 28px;
+}
