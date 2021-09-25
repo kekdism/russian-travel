@@ -1,0 +1,20 @@
+.page__places {
+    margin: 0 auto;
+    max-width: 984px;
+    width: calc(100vw - 96px);
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+    .page__places {
+        width: calc(100vw - 48px);
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page__places {
+        width: calc(100vw - 32px);
+        padding-top: 64px;
+    }
+}

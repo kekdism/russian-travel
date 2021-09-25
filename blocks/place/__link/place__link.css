@@ -3,5 +3,9 @@
     font-size: 18px;
     line-height: 22px;
     margin-top: 12px;
-    color: inherit;
+    color: white;
+    transition: opacity 0.1s;
+}
+.place__link:hover {
+    opacity: 0.8;
 }
