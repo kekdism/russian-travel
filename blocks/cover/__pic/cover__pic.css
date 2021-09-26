@@ -1,5 +1,6 @@
 .cover__pic {
     max-width: 1184px;
+    width: 100%;
     min-height: 740px;
     background-image: url('../../../images/cover-trains.jpg');
     background-size: cover;
@@ -21,7 +22,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity .4s;
     z-index: 2;

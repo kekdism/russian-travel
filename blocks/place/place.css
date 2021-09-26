@@ -16,12 +16,22 @@
 
 @media screen and (max-width: 1183px) {
     .place {
+        grid-template-columns: minmax(320px, 440px) minmax(288px, 484px);
         column-gap: 32px;
     }
 }
-/* */
-/* @media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1023px) {
     .place {
+        grid-template-columns: minmax(320px, 340px) minmax(288px, 484px);
+        column-gap: 32px;
+    }
+}
+
+/* */
+@media screen and (max-width: 767px) {
+    .place {
+        margin-top: 50px;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "places__title"
@@ -29,13 +39,14 @@
         "places__image"
         "places__text";
         row-gap: 32px;
+        justify-items: center;
     }
-} */ 
+}
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
     .place {
         display: flex;
         flex-direction: column;
         margin-top: 50px;
     }
-}
+} */
