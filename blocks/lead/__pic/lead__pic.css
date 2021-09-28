@@ -1,16 +1,18 @@
 .lead__pic {
     max-width: 984px;
-    width: 100%;
+    width: calc(100vw - 96px);
     margin-top: 56px;
 }
 
+
 @media screen and (max-width: 1023px) {
     .lead__pic {
+        max-width: 100%;
         width: 100vw;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
     .lead__pic {
         margin-top: 40px;
     }
